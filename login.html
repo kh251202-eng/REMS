@@ -3,18 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Railway Booking System</title>
 
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body class="login-page">
+<body>
 
   <div class="overlay"></div>
 
-  <!-- NAVBAR -->
   <nav class="navbar">
 
     <div class="logo">
@@ -29,17 +28,27 @@
 
   </nav>
 
-  <!-- LOGIN -->
-  <div class="login-container">
+  <div class="container login-page">
 
-    <h1>Login</h1>
+    <div class="login-container">
+      <h1>Login</h1>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <button>Login</button>
+      
+      <div class="login-actions">
+        <a href="#" class="forgot-btn">Forgot Password</a>
+        <a href="index.html" class="return-btn">Return to Home Page</a>
+      </div>
+    </div>
 
-    <input type="email" placeholder="Enter Email">
+  </div>
 
-    <input type="password" placeholder="Enter Password">
-
-    <button>Sign In</button>
-
+  <div class="promo-banner">
+    <div class="promo-content">
+      <span class="promo-tag">LIMITED TIME OFFER</span>
+      <p class="promo-text">Get 20% off on your first high-speed train booking! Use code: <strong>TRAIN20</strong></p>
+    </div>
   </div>
 
 </body>
